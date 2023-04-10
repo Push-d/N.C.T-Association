@@ -30,7 +30,7 @@ module.exports = {
 
     await Miku.sendMessage(m.from, {
       image: { url: "https://wallpapercave.com/wp/wp9667218.png" },
-      caption: `I'm Leaving this group on request... \n\nTake care everyone :)`,
+      caption: `I'm Leaving this group on request bye you all :)`,
       mentions: participants.map((a) => a.id),
       quoted: m,
     }).then(async () => {
