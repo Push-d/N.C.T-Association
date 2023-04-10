@@ -1,5 +1,5 @@
 {
-  "name": "N.C.T",
+  "name": "atlas",
   "version": "2.0.0",
   "description": "Most Advanced WhatsApp Bot ever made.",
   "main": "index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Push-d/N.C.T-Association.git"
+    "url": "git+https://github.com/FantoX001/Atlas-MD.git"
   },
   "keywords": [
     "bot"
   ],
-  "author": "Deryl",
+  "author": "Fanto001",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FantoX001/Atlas-MD/issues"
