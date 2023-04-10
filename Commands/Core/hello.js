@@ -13,6 +13,6 @@ module.exports = {
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
         const uptime = () => formatTime(process.uptime());
-        await Miku.sendMessage(m.from,{image:{url:botImage1},caption:`\nKonichiwa *${pushName}* senpai, I am *${botName}* bot. type *${prefix}help* to get my full command list.\n\n_🧩 Server Uptime:_ *${uptime()}*\n_🎀 Status:_ *Operational*\n`},{quoted:m})
+        await Miku.sendMessage(m.from,{image:{url:botImage1},caption:`\nHello *${pushName}* Dear friend, I am *${botName}* bot. type *${prefix}help* to get my full command list.\n\n_🧩 Server Uptime:_ *${uptime()}*\n_🎀 Status:_ *Operational*\n`},{quoted:m})
     }
 }
