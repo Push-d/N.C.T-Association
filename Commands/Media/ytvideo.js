@@ -26,7 +26,7 @@ module.exports = {
 
         if (length >= 1800) {
           return m.reply(
-            "Command Rejected! The video is more than 30 minutes long BAKA! "
+            "Command Rejected! The video is more than 30 minutes long sorry! "
           );
         } else {
           const ytaud =  YT.mp4(text).then((file) => {
